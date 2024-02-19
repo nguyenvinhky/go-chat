@@ -23,6 +23,6 @@ func (d *Database) Close() {
 	d.db.Close()
 }
 
-func (d *Database) GetBD() *sql.DB {
+func (d *Database) GetDB() *sql.DB {
 	return d.db
 }
